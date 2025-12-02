@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# PyTorch models (except benchmarks)
+trained_models/
+!trained_models/.gitkeep
+
+# Logs (keep benchmark CSV)
+*.log
+!results/benchmark_results.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
+env/
+.venv
+
+
+
+# Temporary
+*.tmp
+*.bak
+
+# Raw data
+data/*/raw/
+data/geolife/original_backup/
+data/geolife/new_preprocessing/
+data/diy*/
+
+runs/*/checkpoints/
+
+baseline/location-prediction-baseline-ori/data/Data/
+
+baseline/location-prediction-baseline-ori-new/data/
+
+data/
+
