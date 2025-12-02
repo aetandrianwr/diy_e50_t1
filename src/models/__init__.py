@@ -1,3 +1,4 @@
-from .next_location_model import NextLocationPredictor, create_model
+from .next_location_model import NextLocationPredictor
+from .improved_model import ImprovedNextLocationPredictor, create_model
 
-__all__ = ['NextLocationPredictor', 'create_model']
+__all__ = ['NextLocationPredictor', 'ImprovedNextLocationPredictor', 'create_model']
